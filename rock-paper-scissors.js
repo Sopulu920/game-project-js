@@ -6,11 +6,11 @@ function rock() {
 }
 function paper() {
     document.getElementById(`human-player`).innerHTML = `paper`;
-    choice = Math.round(Math.random() * 3);
+    choice = Math.ceil(Math.random() * 3);
 }
 function scissors() {
     document.getElementById(`human-player`).innerHTML = `scissors`;
-    choice = Math.round(Math.random() * 3);
+    choice = Math.ceil(Math.random() * 3);
 } 
 console.log(choice);
 
