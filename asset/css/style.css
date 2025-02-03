@@ -1,0 +1,11 @@
+.body {
+    background-image: linear-gradient(120deg, yellow, orange);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.myButton {
+    background-image: linear-gradient(120deg, red, orange);
+    border: none;
+}
